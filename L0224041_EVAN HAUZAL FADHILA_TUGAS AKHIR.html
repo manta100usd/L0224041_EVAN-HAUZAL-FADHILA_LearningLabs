@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Falls - Tourist Attraction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SELAMAT DATANG DI WISATA AIR TERJUN JUMOG</h1>
+        <p>Air terjun tercantik sesolo raya</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#photos">Photos</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about">
+        <h2>Tentang air terjun jumog</h2>
+        <p>Air Terjun jumog merupakan objek wisata alam yang menakjubkan yang terletak di jantung alam. Dengan pemandangan yang menakjubkan, jalur pendakian, dan tempat piknik, tempat ini sangat cocok untuk keluarga, pasangan, dan pelancong solo. Datanglah dan rasakan ketenangan dan keindahan permata tersembunyi ini!</p>
+    </section>
+    
+    <section id="photos">
+        <h2>Foto</h2>
+        <div class="gallery">
+            <img src="c:\Users\HP\Documents\FRONTEND DEVELOPER\FOTO 1.jpg" alt="Beautiful Falls 1">
+            <img src="c:\Users\HP\Documents\FRONTEND DEVELOPER\FOTO 3.jpeg" alt="Beautiful Falls 2">
+            <img src="c:\Users\HP\Documents\FRONTEND DEVELOPER\FOTO 22.jpeg" alt="Beautiful Falls 3">
+            <img src="c:\Users\HP\Documents\FRONTEND DEVELOPER\FOTO 4.jpeg" alt="Beautiful Falls 4">
+        </div>
+    </section>
+    
+    <section id="feedback">
+        <h2>Berikan feedback untuk air terjun jumog!</h2>
+        <form action="mailto:your-email@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <input type="submit" value="Send Feedback">
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy;  Learning Labs 2024 | L0224041 | EVAN HAUZAL FADHILA</p>
+    </footer>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #007BFF;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</body>
+</html>
